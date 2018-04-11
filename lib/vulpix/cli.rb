@@ -9,7 +9,7 @@ module Vulpix
       data_length = nw.map(&:values).flatten.max_by(&:length)
 
       nw.each do |item|
-        printf "%s  %-#{data_length.length}s :: %s\n", item[:name], item[:name_info], item[:addr]
+        printf "%-6s  %-#{data_length.length}s  ::  %s\n", item[:name], item[:name_info], item[:addr]
       end
     end
 
