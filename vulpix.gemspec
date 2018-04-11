@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Oguzhan Ozdemir"]
   spec.email         = ["aoozdemir@live.com"]
 
-  spec.summary       = %q{Pretty print your Mac's network information.}
-  spec.description   = %q{Pretty print your Mac's network information.}
+  spec.summary       = %q{Pretty print your network information.}
+  spec.description   = %q{Pretty print your network information.}
   spec.homepage      = "https://github.com/aoozdemir/vulpix"
   spec.license       = "MIT"
 
