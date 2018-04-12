@@ -14,6 +14,13 @@ Go to your terminal, and type vulpix and press enter.
 
     $ vulpix
 
+Or, use it in your script.
+
+    require 'vulpix'
+
+    Vulpix.nwinfo
+    # => [{:name=>"lo0", :name_info=>"localhost", :addr=>"127.0.0.1"}, ...]
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
