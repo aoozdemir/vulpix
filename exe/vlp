@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require "vulpix/cli"
+
+Vulpix::CLI.start

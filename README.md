@@ -10,9 +10,9 @@ Run:
 
 ## Usage
 
-Go to your terminal, and type vulpix and press enter.
+Go to your terminal, and type `vulpix` or `vlp` and press enter.
 
-    $ vulpix
+    $ vlp
 
 Or, use it in your script.
 
